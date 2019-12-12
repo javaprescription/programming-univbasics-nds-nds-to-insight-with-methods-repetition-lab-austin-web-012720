@@ -24,11 +24,11 @@ def gross_for_director(d)
   total
 end
 
-def list_of_directors(source)
+def list_of_directors(source1)
   result = []
   counter = 0
-  while counter < source.length
-    result << source[counter]
+  while counter < source1.length
+    result << source1[counter]
     counter += 1
 end
 
