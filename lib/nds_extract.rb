@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   result = []
   counter = 0
-  
+
   while counter < source.length
     result << source[counter]
 end
