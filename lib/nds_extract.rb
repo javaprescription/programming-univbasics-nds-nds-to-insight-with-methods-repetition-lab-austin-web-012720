@@ -28,6 +28,7 @@ def list_of_directors(source1)
   while counter < source1.length
     result << source1[counter]
     counter += 1
+  end
 end
 
 def total_gross(source)
