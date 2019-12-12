@@ -56,4 +56,3 @@ def directors_totals(nds)
   end
   total #returns all the keys we created with their values.
 end
-
