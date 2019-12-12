@@ -27,6 +27,7 @@ end
 def list_of_directors(source)
   result = []
   counter = 0
+  binding.pry
   while counter < source.length
     result << source[counter]
 end
