@@ -20,14 +20,13 @@ def gross_for_director(d)
     total += d[:movies][index][:worldwide_gross]
     index += 1
   end
-
+binding.pry
   total
 end
 
 def list_of_directors(source)
   result = []
   counter = 0
-  binding.pry
   while counter < source.length
     result << source[counter]
 end
