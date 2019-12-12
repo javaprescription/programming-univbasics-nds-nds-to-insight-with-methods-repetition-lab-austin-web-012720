@@ -40,6 +40,9 @@ def total_gross(source)
   # return the total
 end
 
+
+
+=begin
 def directors_totals(nds)
   total = {} #empty hash to fill with results
   dir_counter = 0 #first counter is looping through the array of directors
