@@ -22,6 +22,9 @@ def gross_for_director(d)
   total
 end
 
+stooges = [{:name => "Larry"}, {:name => "Curly"}, {:name => "Moe"}, {:name => "Iggy"}]
+
+
 def list_of_directors(source1)
   result = []
   counter = 0
