@@ -28,7 +28,7 @@ def list_of_directors(source1)
   while counter < source1.length
     result << source1[counter][:name]
     counter += 1
-
+    binding.pry
   end
 end
 
